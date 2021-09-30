@@ -2,7 +2,7 @@ name: Build and Publish
 on:
   push:
     branches:
-      -main # replace with the name of your production branch
+      - main # replace with the name of your production branch
 jobs:
   build:
     runs-on: ubuntu-latest
